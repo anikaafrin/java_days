@@ -1,0 +1,14 @@
+import java.util.*;
+public class strings {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        StringBuilder sentence = new StringBuilder("A");
+        sentence.append("n");
+        sentence.append("i");
+        sentence.append("k");
+        sentence.append("a");
+        System.out.println(sentence);
+        
+        
+    }
+}
