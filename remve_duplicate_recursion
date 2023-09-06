@@ -1,0 +1,30 @@
+import java.util.*;
+public class recursion1 {
+    
+    public static boolean[] map = new boolean[26];
+    public static void revDuplicate(String str, int idx, String newString ){
+        if(idx == str.length()){
+            System.out.println(newString);
+            return;
+        }
+        
+        char currChar = str.charAt(idx);
+        if(map[currChar -'a']){
+            revDuplicate(str, idx+1, newString);
+            
+        }
+        else{
+            newString +=currChar;
+            map[currChar -'a'] = true;
+            revDuplicate(str, idx+1, newString);
+        }
+    }
+        
+        
+    
+    public static void main(String[] args){
+        
+        String str="abbccda";
+        revDuplicate(str, 0,"");
+    }
+}
