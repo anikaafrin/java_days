@@ -1,0 +1,11 @@
+import java.util.*;
+public class strings {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        StringBuilder sentence = new StringBuilder("Anika");
+        System.out.println(sentence);
+        sentence.insert(0, 'S');
+        System.out.println(sentence);
+        
+    }
+}
