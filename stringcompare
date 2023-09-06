@@ -1,0 +1,14 @@
+import java.util.*;
+public class strings {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        String fstname = "Anika";
+        String lstname = "Anika";
+        if (fstname.compareTo(lstname) == 0){
+            System.out.println("Strings are equal");
+        }
+        else {
+            System.out.println("Strins are not equal");
+        }
+    }
+}
