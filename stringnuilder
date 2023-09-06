@@ -1,0 +1,12 @@
+import java.util.*;
+public class strings {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        StringBuilder sentence = new StringBuilder("Anika");
+        System.out.println(sentence);
+        System.out.println(sentence.charAt(0));
+        sentence.setCharAt(0, 'P');
+        System.out.println(sentence);
+        
+    }
+}
