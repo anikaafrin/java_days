@@ -1,0 +1,11 @@
+import java.util.*;
+public class strings {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        String fstname = "Anika";
+        String lstname = "Afrin";
+        String fullname = fstname+" " +lstname;
+        System.out.println(fullname);
+        
+    }
+}
