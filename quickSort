@@ -1,3 +1,10 @@
+//worst: O(n^2)
+// avg: O(nlogn)
+//memory kom lage
+//arg cases thake
+
+
+
 import java.util.*;
 public class quickSort{
     public static int partition(int arr[],int low, int high){
