@@ -1,0 +1,42 @@
+import java.util.*;
+//create kore jaay but use nehi kaar sakte 
+// just a concept 
+// abstract
+abstract class Animal{
+    abstract void walk() ;
+    //constructor
+    Animal(){
+        System.out.println("you are creating a new animal");
+    }
+    public void eat(){
+        System.out.println("animal eats");
+    }
+        
+    
+}
+class Horse extends Animal {
+    Horse(){
+        System.out.println("created a horse");
+    }
+    public void walk(){
+        System.out.println("walks on 4 legs");
+    }
+}
+class Chicken extends Animal {
+    public void walk(){
+        System.out.println("walks on 2 legs");
+    }
+}
+
+public class OOPS {
+    public static void main(String args[]){
+        //first e animal print kore then horse print kore
+        Horse horse = new Horse(); //only this method chain method e print kore  
+        //horse.walk();
+        //Animal animal = new Animal(); //run time error
+        //animal.walk();
+        //horse.eat();
+        
+    
+    }
+}
